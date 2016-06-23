@@ -1,0 +1,12 @@
+<ion-view view-title="Sale">
+  <ion-content>
+  	<ion-list>
+  		<ion-item class="item-input">
+  			<input ng-model="vm.name" ng-change="vm.searchProduct()" type="text" placeholder="type product name">
+  		</ion-item>
+  		<h3>Producto encontrado:</h3>
+  		<h1>{{vm.result.name}}</h1>
+  		<h1>{{vm.result.price}}</h1>
+  	</ion-list>	
+  </ion-content>
+</ion-view>
